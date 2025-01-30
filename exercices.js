@@ -45,3 +45,36 @@ switch(bunny){
         console.log("adopte un lapin plus mignon");
 }
 
+// Exercice 5
+
+// Projet Calculette avec prompt
+
+let nbr1=Number(prompt("entrez un chiffre"));
+let operateur=prompt("entrez votre opérateur");
+let nbr2= Number(prompt("entrez un deuxième nombre"));
+let result=0 
+switch(operateur){
+    case "+": 
+    result=nbr1+nbr2
+    console.log("Resultat est: " + result)
+    break
+    case "-":
+    result=nbr1-nbr2;
+    console.log("Le resultat est: "+ result)
+    break 
+    case "*":
+    result=nbr1*nbr2;
+    console.log("Le resultat est: "+ result)
+    case "/":
+    if(nbr2/0){
+        result=nbr1/nbr2;
+        console.log("le resutlat est: "+ result)
+    }else{
+        alert("Attention nbr2<0")
+    }
+    break 
+    default: 
+    alert("attention, l'opérateur n'existe pas")
+}
+
+//
