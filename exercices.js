@@ -86,4 +86,13 @@ let carre=0
 carre=nbr*nbr
 console.log("Le resultat est:" + carre)
 
-// 
+// Exercice 6 bis 
+// Same exo avec switch 
+
+let nbr=Number(prompt("Entrez un nombre"));
+switch(nbr){
+    case nbr==Number:
+        console.log(nbr*nbr)
+    case nbr !==Number:
+        alert("Veuillez entrer un nombre")
+}
