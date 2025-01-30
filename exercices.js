@@ -77,4 +77,13 @@ switch(operateur){
     alert("attention, l'opérateur n'existe pas")
 }
 
-//
+//Exercice 6 
+
+// Ecrire un programme qui demande un nombre à l’utilisateur, puis qui calcule et affiche le carré de ce nombre.
+
+let nbr=Number(prompt("Entrez un nombre"));
+let carre=0
+carre=nbr*nbr
+console.log("Le resultat est:" + carre)
+
+// 
