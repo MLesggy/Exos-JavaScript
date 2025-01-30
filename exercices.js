@@ -96,3 +96,13 @@ switch(nbr){
     case nbr !==Number:
         alert("Veuillez entrer un nombre")
 }
+
+// Exercice 7
+//      Ecrire un algorithme qui demande un nombre à l’utilisateur, et l’informe ensuite si ce
+//      nombre est positif ou négatif (on laisse de côté le cas où le nombre vaut zéro)
+let nbr2=Number(prompt("Entrez un nombre"));
+if (nbr2>0){
+    document.write("positif");
+}else{
+    document.write("negatif");
+}
