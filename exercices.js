@@ -106,3 +106,18 @@ if (nbr2>0){
 }else{
     document.write("negatif");
 }
+
+// Exercice 8 
+//      Ecrire un programme qui lit le prix HT d’un article, le nombre d’articles 
+//      et le taux de TVA.(ex :20%), et qui fournit le prix total TTC correspondant
+    
+let prix=Number(prompt("Entrez un prix"));
+let article=Number(prompt("Entrez le nombre d'articles"));
+let tva= Number(prompt("Entrez le taux de la tva"));
+let prixTotal=0
+let prixTTC=prix+(prix*(tva/100))
+prixTotal= prix*article
+console.log("le prix ttc est: " + prixTotal)
+
+
+// Exercice 9
