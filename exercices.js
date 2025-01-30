@@ -25,3 +25,23 @@ if (note >=90){
 }else{
    console.log("D");
 }
+
+// Exercices 4 
+
+// Condition SWITCH
+
+let bunny="hollandlop"
+switch(bunny){
+    case "angora":
+        console.log("je suis un lapin angora");
+        break;
+    case "belier":
+        console.log('je suis un lapin belier');
+        break;
+    case "hollandlop":
+        console.log("chouette, un holland lop!");
+                break
+    default:
+        console.log("adopte un lapin plus mignon");
+}
+
